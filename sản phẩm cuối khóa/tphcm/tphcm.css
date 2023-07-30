@@ -1,0 +1,220 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  overflow: hidden;
+}
+.logo {
+  font-size: 30px;
+}
+
+.nav-links a {
+  color: #407b77;
+}
+.logo {
+  font-size: 32px;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 25px;
+  margin-left: 100px;
+}
+.menu li:hover {
+  background-color: #c5a7a7;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(249, 255, 255);
+  color: #1a373e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100vw;
+  z-index: 10;
+  height: 85px;
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  top: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.all1 {
+  margin-top: 50px;
+  margin-left: 300px;
+  display: flex;
+}
+.img1 img {
+  width: 744px;
+  height: 410px;
+}
+
+.img23 img {
+  width: 305px;
+  margin-left: 5px;
+}
+.img34 img {
+  width: 300px;
+  margin-left: 5px;
+}
+
+.img45 img {
+  width: 305px;
+  height: 203px;
+  margin-left: 5px;
+}
+.tphcm {
+  color: rgb(7, 7, 7);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.dichvu {
+  margin-top: 10px;
+  width: 1350px;
+  margin-left: 300px;
+}
+.dichvu h2 {
+  font-size: 40px;
+}
+.dichvu ul {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.dichvu p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.chuongtrinh {
+  margin-top: 10px;
+  width: 1350px;
+  margin-left: 300px;
+}
+.chuongtrinh h2 {
+  font-size: 40px;
+  margin-top: 5px;
+}
+.chuongtrinh h3 {
+  font-size: 25px;
+  color: red;
+}
+.chuongtrinh p {
+  margin-top: 5px;
+  font-size: 25px;
+}
+.chuongtrinh img {
+  width: 900px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.baogom {
+  margin-top: 10px;
+  width: 1350px;
+  margin-left: 300px;
+}
+
+.baogom h2 {
+  font-size: 25px;
+  color: red;
+}
+.baogom p {
+  font-size: 25px;
+}
+.baogom ul {
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.danhgia {
+  margin-left: 290px;
+  margin-top: 5px;
+}
+.caket {
+  margin-left: 290px;
+  width: 1300px;
+}
+.nut {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 290px;
+}
+
+.nut:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.comment-box {
+  top: 2700px;
+  left: 900px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.comment-box h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.comment-box input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comment-box textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+
+.comment-box input:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.comment-box textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+
+.comment-box button {
+  border: 0;
+  padding: 10px 30px;
+  background-color: #86b0b6;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.comment-box button:hover {
+  background-color: #718a8e;
+}

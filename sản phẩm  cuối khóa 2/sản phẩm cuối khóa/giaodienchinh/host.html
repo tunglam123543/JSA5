@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="host.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ////////////////////////////////////// -->
+    <div class="video">
+      <video
+        src="../giaodienchinh/image/nui.mp4"
+        autoplay
+        muted
+        loop
+        width="100%"
+        height="1080px"
+      ></video>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">Benjamin TOUR</div>
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li id="login">
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+          </li>
+
+          <a href="../sign in/login.html">
+            <li class="fa-regular fa-user user"></li
+          ></a>
+
+          <!-- ////////////////////////////////////// -->
+          <div class="cart">
+            <div class="cart_container">
+              <h1>Your Cart</h1>
+              <i class="fa-solid fa-xmark" id="close-cart"></i>
+              <!-- //////////////////////////////////////////////////////////////////////////// -->
+              <div class="list_item_container">
+                <!-- <div class="item_at_cart">
+                  <img src="./image/bana.jpg" alt="" />
+                  <h1>Tuor du lịch Bà Nà Hill</h1>
+                  <i class="fa-solid fa-trash trash" style="color: #f70808">
+                  </i>
+                </div> -->
+              </div>
+            </div>
+            <!-- //////////////////////////////////////////////////////////////////////////// -->
+            <div class="total">
+              <div class="total-title">Total</div>
+              <!-- <div class="total_price">$0</div> -->
+            </div>
+            <button
+              class="btn-buy"
+              onclick="alert ('Bạn đã mua hàng thành công')"
+            >
+              Buy Now
+            </button>
+          </div>
+          <!-- ////////////////////////////////////// -->
+          <div class="dongho">
+            <div class="days">
+              <p><span id="day"></span></p>
+            </div>
+
+            <div class="hours">
+              <p>:<span id="hour"></span></p>
+            </div>
+            <div class="minutes">
+              <p>:<span id="minute"></span></p>
+            </div>
+            <div class="seconds">
+              <p>:<span id="second"></span></p>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <!-- ////////////////////////////////////// -->
+
+    <!-- ////////////////////////////////////// -->
+    <div class="khampha">
+      <h1>Khám phá thế giới</h1>
+      <h2>Xách balo và đi thôi nào</h2>
+    </div>
+    <div class="suggest">
+      <form action="">
+        <h1 id="he">Bạn muốn đi đâu hè này</h1>
+        <p>Địa điểm</p>
+        <select name="" id="">
+          <option value="">--Chọn địa điểm --</option>
+          <option value="">Bà Nà</option>
+          <option value="">Thành phố Hồ Chí Minh</option>
+          <option value="">Đà Lạt</option>
+          <option value="">Hạ Long</option>
+          <option value="">Nha Trang</option>
+          <option value="">Vũng Tàu</option>
+        </select>
+        <p>Số người</p>
+        <input type="number" min="1" placeholder="Bạn đi bao nhiêu người" />
+        <p>Ngày đi</p>
+        <input type="date" />
+        <p>Ngày về</p>
+        <input type="date" />
+        <button>Tìm kiếm</button>
+      </form>
+    </div>
+    <!-- ////////////////////////////////////// -->
+
+    <section class="nice-place">
+      <div class="container">
+        <h1>Địa điểm nổi bật</h1>
+        <div class="nice-place-content row">
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="product" id="1" place="vietnam">
+              <div class="nice-place-img">
+                <img src="../giaodienchinh/image/bana.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch Bà Nà Hill</h2>
+                <h3>
+                  Đánh giá : 5/ 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                </h3>
+                <p>
+                  Bà Nà là khu bảo tồn thiên nhiên đồng thời là quần thể du lịch
+                  nghỉ dưỡng toạ lạc tại khu vực thuộc dãy Trường Sơn nằm ở xã
+                  Hoà Ninh.
+                </p>
+                <a href="../bana/bana.html"
+                  ><button class="nut nut1">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="product" id="2" place="vietnam">
+              <div class="nice-place-img">
+                <img src="../giaodienchinh/image/tphcm.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch thành phố Hồ Chí Minh</h2>
+                <h3>
+                  Đánh giá : 4 / 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-regular fa-star"></i>
+                </h3>
+                <p>
+                  Thành phố Hồ Chí Minh hay Sài Gòn, là thành phố lớn nhất Việt
+                  Nam và là một siêu đô thị trong tương lai gần.
+                </p>
+                <a href="../tphcm/tphcm.html"
+                  ><button class="nut nut2">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="product" id="3" place="vietnam">
+              <div class="nice-place-img">
+                <img src="../giaodienchinh/image/dalat.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch Đà Lạt</h2>
+                <h3>
+                  Đánh giá : 5/ 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                </h3>
+                <p>
+                  Điểm tham quan cụ thể của Đà Lạt là rừng thông và những con
+                  đường ngoằn ngoèo đầy cúc vạn thọ (tiếng Việt: hoa dã quỳ ) và
+                  hoa mai dương vào mùa đông.
+                </p>
+                <a href="../dalat/dalat.html"
+                  ><button class="nut nut3">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////// -->
+        </div>
+      </div>
+      <!-- ////////////////////////////////////// -->
+      <div class="container">
+        <div class="nice-place-content row">
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="nice-place-img">
+              <div class="product" id="4" place="vietnam">
+                <img src="./image/halong.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch Hạ Long</h2>
+                <h3>
+                  Đánh giá : 5 / 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                </h3>
+                <p>
+                  Hạ Long là thành phố tỉnh lỵ của tỉnh Quảng Ninh, Việt Nam.
+                  Thành phố được đặt theo tên của vịnh Hạ Long, vịnh biển nằm ở
+                  phía nam thành phố và là một di sản thiên nhiên nổi tiếng của
+                  Việt Nam.
+                </p>
+                <a href="../bana/bana.html"
+                  ><button class="nut nut1">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="product" id="5" place="vietnam">
+              <div class="nice-place-img">
+                <img src="./image/nhatrang.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch Nha Trang</h2>
+                <h3>
+                  Đánh giá : 5/ 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                </h3>
+                <p>
+                  Nha Trang là một thành phố ven biển và là tỉnh lỵ của tỉnh
+                  Khánh Hòa , ven biển Nam Trung Bộ Việt Nam. Phía Bắc giáp thị
+                  xã Ninh Hoà , phía Nam giáp thành phố Cam Ranh ,
+                </p>
+                <a href="../tphcm/tphcm.html"
+                  ><button class="nut nut2">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////// -->
+          <div class="nice-place-item">
+            <div class="product" id="6" place="vietnam">
+              <div class="nice-place-img">
+                <img src="./image/vungtau.jpg" alt="" />
+              </div>
+              <div class="nice-place-text">
+                <h2>Tour du lịch Vũng Tàu</h2>
+                <h3>
+                  Đánh giá : 4.5 / 5
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star" style="color: #e8ec09"></i>
+                  <i class="fa-solid fa-star-half" style="color: #ebdb00"></i>
+                </h3>
+                <p>
+                  Vũng Tàu là thành phố lớn nhất của tỉnh Bà Rịa–Vũng Tàu ở miền
+                  nam Việt Nam.Vũng Tàu là thủ phủ của tỉnh cho đến khi được
+                  thay thế bằng thành phố Bà Rịa nhỏ hơn nhiều vào ngày 2 tháng
+                  5 năm 2012.
+                </p>
+                <a href="../dalat/dalat.html"
+                  ><button class="nut nut3">Click để xem</button></a
+                >
+                <button class="fa-solid fa-cart-plus add"></button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////// -->
+        </div>
+      </div>
+    </section>
+
+    <section class="tour">
+      <div class="container">
+        <h1 class="lehoi">Các lễ hội mùa hè</h1>
+        <div class="tour-content row">
+          <div class="tour-content-item row">
+            <div class="tour-content-item-img">
+              <img src="../giaodienchinh/lễ hội img/lehoi1.jpg" alt="" />
+            </div>
+
+            <div class="tour-content-item-text">
+              <h2>Lễ hội khinh khí cầu quốc tế Huế</h2>
+              <p>
+                Lễ hội Khinh khí cầu quốc tế Huế được ấn định duy trì thường
+                niên, lễ hội mùa hè này sẽ trở thành cơ hội tốt để quảng bá hình
+                ảnh du lịch Huế đến với bạn bè quốc tế.
+              </p>
+              <button class="nut">Khám phá ngay</button>
+            </div>
+          </div>
+
+          <div class="tour-content-item row">
+            <div class="tour-content-item-img">
+              <img src="../giaodienchinh/lễ hội img/lehoi2.jpg" alt="" />
+            </div>
+            <div class="tour-content-item-text">
+              <h2>Lễ hội pháo hoa quốc tế Đà Nẵng</h2>
+              <p>
+                Lễ hội pháo hoa quốc tế Đà Nẵng (DIFF) năm ngoái đã diễn ra từ
+                ngày 1/6 đến 6/7/2019, với chủ đề "Những dòng sông kể chuyện".
+                Sự kiện diễn ra trong 5 đêm, với sự tham gia của 8 đội thi đến
+                từ các quốc gia: Việt Nam, Nga, Brazil, Bỉ, Phần Lan, Ý, Anh và
+                Trung Quốc. Đây là lần thứ 10 TP. Đà Nẵng tổ chức Lễ hội pháo
+                hoa quốc tế.
+              </p>
+              <button class="nut">Khám phá ngay</button>
+            </div>
+          </div>
+
+          <div class="tour-content-item row">
+            <div class="tour-content-item-img">
+              <img src="../giaodienchinh/lễ hội img/lehoi3.jpg" alt="" />
+            </div>
+            <div class="tour-content-item-text">
+              <h2>Festival biển Nha Trang - Khánh Hòa</h2>
+              <p>
+                Festival có 9 nhóm hoạt động gồm: chương trình chính (lễ khai
+                mạc, bế mạc, lễ hội đường phố, chương trình nghệ thuật); hoạt
+                động biểu diễn nghệ thuật; hoạt động biểu diễn quần chúng; hoạt
+                động triển lãm; hoạt động thể thao; hoạt động du lịch; hoạt động
+                giáo dục; hoạt động ẩm thực; hoạt động thương mại
+              </p>
+              <button class="nut">Khám phá ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////// -->
+    <div class="vetoi">
+      <h1>About</h1>
+    </div>
+    <div class="about">
+      <img src="./image/about.jpg" alt="" />
+    </div>
+    <div class="tsao">
+      <h1>Tại sao bạn nên chọn chúng tôi?</h1>
+      <p>
+        Chúng tôi là công ty hàng đầu về cung cấp dịch vụ lữ hành nội địa và
+        quốc tế nội địa số 1
+      </p>
+      <button class="nut">Tìm hiểu thêm</button>
+    </div>
+    <!-- //////////////////////////////////////////////////// -->
+    <footer>
+      <div class="footer">
+        <div class="congty">
+          <h1>Công ty cung cấp dịch vụ du lịch</h1>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="row3">
+          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
+          TungLam
+        </div>
+      </div>
+    </footer>
+    <script src="./host.js"></script>
+
+    <!-- ///////////////////////////////////////////////////// -->
+  </body>
+</html>

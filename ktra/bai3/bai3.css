@@ -1,0 +1,54 @@
+*{box-shzing: border-box;}
+.bg{
+    width: 100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: -1;
+    filter: blur(3px);
+}
+.loginbox{
+    background-color: white;
+    width: 900px;
+    height: 360px;
+    z-index: 10;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid rgb(14, 5, 61) 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.title{
+    font-family: Roboto;
+    font-size: 25px;
+}
+.rq{
+    display: inline;
+    font-family: Roboto;
+    font-size: 14px;
+}
+#email, #pass, #name{
+  width: 250px;
+  height: 30px;
+  margin-bottom: 16px;
+}
+#name{
+  width: 248px;
+  margin-bottom: 20px; 
+}
+
+.home{
+position: fixed;
+text-align: right;
+right: 27px;
+text-decoration: none;
+color: rgb(110, 110, 255);
+font-family: Roboto;
+font-size: 14px;
+top: 60%;
+}
+
+
+

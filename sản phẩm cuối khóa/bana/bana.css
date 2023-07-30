@@ -1,0 +1,246 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  overflow: hidden;
+}
+.logo {
+  font-size: 30px;
+}
+
+.nav-links a {
+  color: #407b77;
+}
+.logo {
+  font-size: 32px;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 25px;
+  margin-left: 100px;
+}
+.menu li:hover {
+  background-color: #c5a7a7;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(249, 255, 255);
+  color: #1a373e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100vw;
+  z-index: 10;
+  height: 85px;
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  top: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.bana {
+  color: rgb(7, 7, 7);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.img1 img {
+  width: 644px;
+}
+
+.img23 img {
+  width: 300px;
+  margin-left: 5px;
+}
+
+.all1 {
+  margin-top: 50px;
+  margin-left: 300px;
+  display: flex;
+}
+
+.img45 img {
+  width: 310px;
+  height: 212px;
+  margin-left: 5px;
+}
+
+.img34 img {
+  width: 300px;
+  margin-left: 5px;
+}
+
+.review {
+  font-size: 20px;
+  width: 1250px;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.review img {
+  width: 1000px;
+  margin-left: 100px;
+}
+
+.diemnoibat {
+  margin-top: 20px;
+}
+
+.diemnoibat h1 {
+  margin-left: 290px;
+}
+
+.diemnoibat p {
+  font-size: 20px;
+  margin-left: 295px;
+  margin-top: 10px;
+  width: 1200px;
+}
+.diemnoibat img {
+  width: 900px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.luuy {
+  margin-left: 300px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 1300px;
+}
+
+#lu1 {
+  margin-top: 10px;
+}
+#lu2 {
+  margin-top: 10px;
+}
+
+#lu3 {
+  margin-top: 10px;
+}
+
+#lu4 {
+  margin-top: 10px;
+}
+
+.caket {
+  font-size: 30px;
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 1300px;
+}
+
+.lichtrinh {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.lichtrinh h2 {
+  font-size: 30px;
+}
+
+.lichtrinh li {
+  font-size: 20px;
+}
+
+#lu5,
+#lu6,
+#lu7,
+#lu8,
+#lu9,
+#lu10,
+#lu11,
+#lu12 {
+  margin-top: 10px;
+}
+.nut {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+
+  margin-left: 300px;
+}
+
+.nut:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.danhgia {
+  margin-left: 295px;
+  margin-top: 20px;
+}
+
+.comment-box {
+  top: 2700px;
+  left: 900px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.comment-box h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.comment-box input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comment-box textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+
+.comment-box input:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.comment-box textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+
+.comment-box button {
+  border: 0;
+  padding: 10px 30px;
+  background-color: #86b0b6;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.comment-box button:hover {
+  background-color: #718a8e;
+}
